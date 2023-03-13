@@ -1,0 +1,41 @@
+[
+    {
+        "email": "frxwl+a_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "total_cost_comparison",
+        "page_name": "Total Cost Comparison",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": true,
+            "export": false
+        },
+        "visible": {
+            "view":"be.visible",
+            "add":"be.visible",
+            "export":"be.visible",
+            "delete":"be.visible"
+            
+        },
+        "filters": {
+            "plan_sponsor": [
+                "Black Sponsor",
+                "Coal India Ltd"
+            ],
+            "date": [
+                "2023-03-02",
+                "2023-03-09"
+            ]
+        },
+        "add_total_cost_comparison": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_total_cost_comparison": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    }
+]

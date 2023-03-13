@@ -1,0 +1,98 @@
+[
+    {
+        "email": "frxwl+a_i1t2@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "service",
+        "page_name": "Services",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+        },
+        "visible": {
+            "view": "be.visible",
+            "add": "be.visible",
+            "edit": "not.be.visible",
+            "delete": "not.be.visible"
+        },
+        "addservice": {
+            "success": 200,
+            "invalid": 400,
+            "unauthorized": 401
+        },
+        "editservice": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "deleteservice": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    },
+    {
+        "email": "frxwl+u_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "service",
+        "page_name": "Services",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": true
+        },
+        "visible": {
+            "view": "be.visible",
+            "add": "be.visible",
+            "edit": "be.visible",
+            "delete": "be.visible"
+        },
+        "addservice": {
+            "success": 200,
+            "invalid": 400,
+            "unauthorized": 401
+        },
+        "editservice": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "deleteservice": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    },
+    {
+        "email": "frxwl+m_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "service",
+        "page_name": "Services",
+        "access": {
+            "view": false,
+            "add": false,
+            "edit": false,
+            "delete": false
+        },
+        "visible": {
+            "view": "not.exist",
+            "add": "not.exist",
+            "edit": "not.exist",
+            "delete": "not.exist"
+        },
+        "addservice": {
+            "success": 200,
+            "invalid": 400,
+            "unauthorized": 401
+        },
+        "editservice": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "deleteservice": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    }
+]

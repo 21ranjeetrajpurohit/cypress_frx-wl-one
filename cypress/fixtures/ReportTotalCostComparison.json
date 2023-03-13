@@ -1,0 +1,14 @@
+{
+    "plan_sponsor":"orange sponsor",
+    "investment_schedule":"test sched  2",
+    "recordkeeper_schedule":"Tiered Participant Sched",
+    "tpa_schedule":"Flat Participant Sched",
+    "advisory_schedule":"tiered sched",
+    "growth_rate":"5",
+    "plan_assets":"Current Plan Assets: $600,000",
+    "plan_participants":"Current Participants: 600",
+    "current_total_fees":"Current Total Fees ($): $12,630",
+    "current_total_fees_percent":"Current Total Fees (%): 2.11%",
+    "proposed_total_fees":"Proposed Total Fees ($): $7,352",
+    "proposed_total_fees_percent":"Proposed Total Fees (%): 1.23%"
+}

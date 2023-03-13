@@ -1,0 +1,76 @@
+[
+    {
+        "email": "frxwl+a_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "rk_fee_benchmark",
+        "page_name": "RK Fee Benchmark Study Recap",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": true,
+            "export": true
+        },
+        "visible": {
+            "view":"be.visible",
+            "add":"be.visible",
+            "export":"be.visible",
+            "delete":"be.visible"
+            
+        },
+        "filters": {
+            "plan_sponsor": [
+                "Black Sponsor"
+            ],
+            "date": [
+                "2023-03-02"
+            ]
+        },
+        "add_rk_fee_benchmark": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_rk_fee_benchmark": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    },
+    {
+        "email": "frxwl+m_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "rk_fee_benchmark",
+        "page_name": "RK Fee Benchmark Study Recap",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": true,
+            "export": true
+        },
+        "visible": {
+            "view":"be.visible",
+            "add":"be.visible",
+            "export":"be.visible",
+            "delete":"be.visible"
+            
+        },
+        "filters": {
+            "plan_sponsor": [
+                "blue sponsor"
+            ],
+            "date": [
+                "2023-03-03"
+            ]
+        },
+        "add_rk_fee_benchmark": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_rk_fee_benchmark": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    }
+]

@@ -1,0 +1,312 @@
+[
+    {
+        "email": "frxwl+a_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "ps_list",
+        "page_name": "All Plan Sponsors",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": true
+        },
+        "visible": {
+            "view": {
+                "table": "be.visible",
+                "team": "be.visible",
+                "assigned_to": "not.be.visible"
+            },
+            "add": "be.visible",
+            "edit": {
+                "show": [
+                    "All Reports",
+                    "All Plan Sponsors",
+                    "Profile",
+                    "Responses",
+                    "Accomplishments",
+                    "Team Members",
+                    "Questions Mapping",
+                    "Generate Secure URL",
+                    "Copy Profile",
+                    "Edit Team",
+                    "Delete"
+                ],
+                "not_show": [
+                    "hello"
+                ]
+            },
+            "add_plan_sponsors_form":{
+                "team":"be.visible",
+                "question_profile":"not.be.visible",
+                "user":"not.be.visible"
+            }
+        },
+        "search": {
+            "team": [
+                "South"
+            ],
+            "plan_sponsor": [
+                "Brown",
+                "Pink"
+            ],
+            "industry": [
+                "Accounting",
+                "Banking"
+            ],
+            "recordkeeper": [
+                "ADP",
+                "Alerus"
+            ]
+        },
+        "filters": {
+            "team": [
+                "South America"
+            ],
+            "recordkeeper": [
+                "ADP",
+                "Alerus"
+            ]
+        },
+        "redirect": 
+            [ {
+                "name": "All Reports",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/reports"
+            },
+             {
+                "name": "Profile",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/profile"
+            },
+            {
+                "name": "Fee Details",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/fee-details"
+            },
+             {
+                "name": "Responses",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/responses"
+            },
+             {
+                "name": "Accomplishments",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/accomplishments"
+            },
+            {
+                "name": "Team Members",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/team-members"
+            }
+            ],
+        "add_plan_sponsors": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_plan_sponsors": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    },
+    {
+        "email": "frxwl+m_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "ps_list",
+        "page_name": "All Plan Sponsors",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": true
+        },
+        "visible": {
+            "view": {
+                "table": "be.visible",
+                "team": "not.be.visible",
+                "assigned_to": "not.be.visible"
+            },
+            "add": "be.visible",
+            "edit": {
+                "show": [
+                    "All Reports",
+                    "All Plan Sponsors",
+                    "Profile",
+                    "Responses",
+                    "Accomplishments",
+                    "Team Members",
+                    "Questions Mapping",
+                    "Generate Secure URL",
+                    "Copy Profile",
+                    "Edit Team",
+                    "Delete"
+                ],
+                "not_show": [
+                    "hello"
+                ]
+            },
+            "add_plan_sponsors_form":{
+                "team":"not.be.visible",
+                "question_profile":"be.visible",
+                "user":"be.visible"
+            }
+        },
+        "search": {
+            "team": [
+                "South"
+            ],
+            "plan_sponsor": [
+                "Brown",
+                "Pink"
+            ],
+            "industry": [
+                "Accounting",
+                "Banking"
+            ],
+            "recordkeeper": [
+                "ADP",
+                "Alerus"
+            ]
+        },
+        "filters": {
+            "team": [
+            ],
+            "recordkeeper": [
+                "ADP",
+                "Alerus"
+            ]
+        },
+        "redirect": 
+            [ {
+                "name": "All Reports",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/reports"
+            },
+             {
+                "name": "Profile",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/profile"
+            },
+            {
+                "name": "Fee Details",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/fee-details"
+            },
+             {
+                "name": "Responses",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/responses"
+            },
+             {
+                "name": "Accomplishments",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/accomplishments"
+            },
+            {
+                "name": "Team Members",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/team-members"
+            }
+            ],
+        "add_plan_sponsors": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_plan_sponsors": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    },
+    {
+        "email": "frxwl+u_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "ps_list",
+        "page_name": "All Plan Sponsors",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": true
+        },
+        "visible": {
+            "view": {
+                "table": "be.visible",
+                "team": "not.be.visible",
+                "assigned_to": "be.visible"
+            },
+            "add": "be.visible",
+            "edit": {
+                "show": [
+                    "All Reports",
+                    "All Plan Sponsors",
+                    "Profile",
+                    "Responses",
+                    "Accomplishments",
+                    "Team Members",
+                    "Questions Mapping",
+                    "Generate Secure URL",
+                    "Copy Profile",
+                    "Edit Team",
+                    "Delete"
+                ],
+                "not_show": [
+                    "hello"
+                ]
+            },
+            "add_plan_sponsors_form":{
+                "team":"be.visible",
+                "question_profile":"be.visible",
+                "user":"not.be.visible"
+            }
+        },
+        "search": {
+            "team": [
+                "South"
+            ],
+            "plan_sponsor": [
+                "Brown",
+                "Pink"
+            ],
+            "industry": [
+                "Accounting",
+                "Banking"
+            ],
+            "recordkeeper": [
+                "ADP",
+                "Alerus"
+            ]
+        },
+        "filters": {
+            "team": [
+            ],
+            "recordkeeper": [
+                "ADP",
+                "Alerus"
+            ]
+        },
+        "redirect": 
+            [ {
+                "name": "All Reports",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/reports"
+            },
+             {
+                "name": "Profile",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/profile"
+            },
+            {
+                "name": "Fee Details",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/fee-details"
+            },
+             {
+                "name": "Responses",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/responses"
+            },
+             {
+                "name": "Accomplishments",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/accomplishments"
+            },
+            {
+                "name": "Team Members",
+                "url": "https://frx-wl-one.slashash.dev/plan-sponsor/team-members"
+            }
+            ],
+        "add_plan_sponsors": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_plan_sponsors": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    }
+]

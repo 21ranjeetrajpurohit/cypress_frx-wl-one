@@ -1,0 +1,11 @@
+{
+    "plan_sponsor":"orange sponsor",
+    "plan_assets":"Current Plan Assets: $600,000",
+    "plan_participants":"Current Participants: 600",
+    "current_total_fees":"Current Recordkeeping/Admin Fees ($): $9,150",
+    "current_total_fees_percent":"Current Recordkeeping/Admin Fees (%): 1.53%",
+    "current_per_participant":"Current Recordkeeping/Admin Fees Per Participant ($): $15",
+    "proposed_total_fees":"Proposed Recordkeeping/Admin Fees ($): $3,602",
+    "proposed_total_fees_percent":"Proposed Recordkeeping/Admin Fees (%): 0.60%",
+    "proposed_per_participant":"Proposed Recordkeeping/Admin Fees Per Participant ($): $6"
+}

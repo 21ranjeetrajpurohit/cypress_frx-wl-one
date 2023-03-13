@@ -1,0 +1,25 @@
+[{
+    "email": "frxwl+a_i1t2@slashash.co",
+    "password": "1989",
+    "url":"https://frx-wl-one.slashash.dev",
+    "statusCode":200
+},
+{
+    "email": "frxwl+u_i1t1@slashash.co",
+    "password": "1989",
+    "url":"https://frx-wl-one.slashash.dev",
+    "statusCode":200
+},
+{
+    "email": "frxwl+m_i1t1@slashash.co",
+    "password": "1989",
+    "url":"https://frx-wl-one.slashash.dev",
+    "statusCode":200
+},
+{
+    "email": "frxwl+a_i1t2test@slashash.co",
+    "password": "19893434",
+    "url":"https://frx-wl-one.slashash.dev",
+    "statusCode":401
+}
+]

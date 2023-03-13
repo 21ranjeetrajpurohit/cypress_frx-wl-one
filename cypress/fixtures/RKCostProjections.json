@@ -1,0 +1,41 @@
+[
+    {
+        "email": "frxwl+a_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "rk_cost_projections",
+        "page_name": "RK Cost Projections",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": true,
+            "export": false
+        },
+        "visible": {
+            "view":"be.visible",
+            "add":"be.visible",
+            "export":"be.visible",
+            "delete":"be.visible"
+            
+        },
+        "filters": {
+            "plan_sponsor": [
+                "Black Sponsor",
+                "Coal India Ltd"
+            ],
+            "date": [
+                "2023-02-28",
+                "2023-03-09"
+            ]
+        },
+        "add_rk_cost_projections": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_rk_cost_projections": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    }
+]

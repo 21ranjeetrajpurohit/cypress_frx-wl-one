@@ -1,0 +1,41 @@
+[
+    {
+        "email": "frxwl+a_i1t1@slashash.co",
+        "password": "1989",
+        "url": "https://frx-wl-one.slashash.dev",
+        "rule_name": "historical_cost_trend",
+        "page_name": "Historical Cost Trend",
+        "access": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": true,
+            "export": false
+        },
+        "visible": {
+            "view":"be.visible",
+            "add":"be.visible",
+            "export":"be.visible",
+            "delete":"be.visible"
+            
+        },
+        "filters": {
+            "plan_sponsor": [
+                "orange sponsor",
+                "Coal India Ltd"
+            ],
+            "date": [
+                "2023-02-28",
+                "2023-03-09"
+            ]
+        },
+        "add_historical_cost_trend": {
+            "success": 200,
+            "unauthorized": 401
+        },
+        "delete_historical_cost_trend": {
+            "success": 200,
+            "unauthorized": 401
+        }
+    }
+]
