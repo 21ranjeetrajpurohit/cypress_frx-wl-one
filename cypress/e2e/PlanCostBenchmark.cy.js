@@ -225,7 +225,21 @@ describe('Fiduciary Testing', () => {
                             cy.visit('https://frx-wl-one.slashash.dev/' + response.body.qGetToken.report_path + '/' + response.body.qGetToken.r_token);
                             cy.fixture('ReportPlanCostBenchmark.json').then((data) => {
                                 cy.wait(500)
-                                cy.get('.mx-auto > .fw-bolder').should('have.text','Plan Cost Benchmarking')
+                                cy.get('.mx-auto > .fw-bolder').should('have.text','Plan Cost Benchmarking');
+
+                                cy.get('#repeatAllCosts > :nth-child(2) > .flex-column > :nth-child(2) > :nth-child(1)').should('have.text',data.total_costs);
+                                cy.get('#repeatAllCosts > :nth-child(2) > .flex-column > :nth-child(2) > :nth-child(2)').should('have.text',data.total_costs_percent);
+
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(4) > :nth-child(1)').should('have.text',data.investment_costs);
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(4) > :nth-child(2)').should('have.text',data.investment_costs_percent);
+
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(6) > :nth-child(1)').should('have.text',data.advisory_costs);
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(6) > :nth-child(2)').should('have.text',data.advisory_costs_percent);
+
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(8) > :nth-child(1)').should('have.text',data.recordkeeping_costs);
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(8) > :nth-child(2)').should('have.text',data.recordkeeping_costs_percent);
+
+                                cy.get(':nth-child(2) > .flex-column > :nth-child(10)').should('have.text',data.per_participant_cost);
                             })
                         }
                     )

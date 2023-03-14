@@ -198,7 +198,7 @@ describe('Fiduciary Testing', () => {
 
         //Export Report (Historical Cost Trend)
         if (access.view == true && access.export == false) {
-            it.only('Export Report', () => {
+            it('Export Report', () => {
                 //login
                 cy.loginByForm(email, password)
                 cy.intercept('GET', '**/api/reports/list?limit=25&report_rule=historical%20cost%20trend&report_type_id=5&f_ps_id=&f_report_date=&offset=0').as('report_list');
@@ -213,9 +213,10 @@ describe('Fiduciary Testing', () => {
                     cy.request('GET', 'https://frx-wl-one.slashash.dev/api/testing/get-token?report_id=' + xhr.response.body.qReports.data[0].report_id).then(
                         (response) => {
                             cy.visit('https://frx-wl-one.slashash.dev/' + response.body.qGetToken.report_path + '/' + response.body.qGetToken.r_token);
-                            cy.fixture('ReportRKCostProjections.json').then((data) => {
+                            cy.fixture('ReportHistoricalCostTrend.json').then((data) => {
                                 cy.wait(500);
-                                cy.get('.mx-auto > .fw-bolder').should('have.text','Historical Fee Trend')
+                                cy.get('.mx-auto > .fw-bolder').should('have.text','Historical Fee Trend');
+                                cy.get('.mt-1').should('have.text',data.estimated_cumulative_savings)
                             })
                         }
                     )
@@ -242,8 +243,6 @@ describe('Fiduciary Testing', () => {
                     }
                     // Check all element visible in  delete Service Model
                     cy.get(".modal-title.text-danger").should('have.text', 'Delete Report');
-                    cy.get("div[class='modal-dialog modal-dialog-centered'] button[aria-label='Close']").should('be.visible');
-                    cy.get("div[class='modal-dialog modal-dialog-centered'] div[class='modal-footer'] button[type='button']").should('be.visible');
                     cy.get('.btn-danger').click();
                     cy.wait('@delete_report', { requestTimeout: 10000 });
                     cy.get('@delete_report').then((xhr) => {

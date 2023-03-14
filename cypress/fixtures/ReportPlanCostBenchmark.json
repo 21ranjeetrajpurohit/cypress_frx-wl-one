@@ -1,12 +1,15 @@
 {
-    "plan_sponsor":"orange sponsor",
-    "report_date":"2023-03-11",
+    "plan_sponsor":"Indian Oil Corporation",
+    "report_date":"2023-03-14",
     "plan_assets":"Current Plan Assets: $600,000",
     "plan_participants":"Current Participants: 600",
-    "current_total_fees":"Current Recordkeeping/Admin Fees ($): $9,150",
-    "current_total_fees_percent":"Current Recordkeeping/Admin Fees (%): 1.53%",
-    "current_per_participant":"Current Recordkeeping/Admin Fees Per Participant ($): $15",
-    "proposed_total_fees":"Proposed Recordkeeping/Admin Fees ($): $3,602",
-    "proposed_total_fees_percent":"Proposed Recordkeeping/Admin Fees (%): 0.60%",
-    "proposed_per_participant":"Proposed Recordkeeping/Admin Fees Per Participant ($): $6"
+    "total_costs":"$408,011",
+    "total_costs_percent":"1.02%",
+    "investment_costs":"$4,000",
+    "investment_costs_percent":"0.01%",
+    "advisory_costs":"$400,010",
+    "advisory_costs_percent":"1.00%",
+    "recordkeeping_costs":"$4,001",
+    "recordkeeping_costs_percent":"0.01%",
+    "per_participant_cost":"$102"
 }

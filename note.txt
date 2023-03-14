@@ -1,0 +1,32 @@
+CYPRESS BASIC NOTE:-
+
+A. Environment Setup:-(https://www.youtube.com/watch?v=cnnkb0AuIFI&list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU&index=2)
+   1. Download & Install nodejs
+   2. Download & Install visual studio code(vscode)
+   3. Create a new folder for project & open in vscode
+   4. open cmd/terminal then execute below command
+       npm -i init         ---->crete package.json file
+   5. to install cypress 
+        npm install cypress --save -dev
+   6. start cypress
+      npx cypress open 
+           (or)
+      node_modules/.bin/cypress open       
+
+
+B.test case write in e2e folder and save filename.cy.js
+  Writing & Executing test
+
+  describe('my first test',()=>{
+    it('test 1',()=>{
+      //Setup
+    })
+
+    it('test 1',()=>{
+      //Setup
+    })
+  })      
+
+  note:- every it block is a single test case
+
+Visit this link for cypress full course:-https://www.youtube.com/playlist?list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU
