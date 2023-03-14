@@ -44,11 +44,12 @@
         },
         "search": {
             "team": [
-                "South"
+                "south"
             ],
             "plan_sponsor": [
-                "Brown",
-                "Pink"
+                "red",
+                "Pink",
+                "blue"
             ],
             "industry": [
                 "Accounting",
@@ -119,7 +120,7 @@
             "view": {
                 "table": "be.visible",
                 "team": "not.be.visible",
-                "assigned_to": "not.be.visible"
+                "assigned_to": "be.visible"
             },
             "add": "be.visible",
             "edit": {
@@ -222,7 +223,7 @@
             "view": {
                 "table": "be.visible",
                 "team": "not.be.visible",
-                "assigned_to": "be.visible"
+                "assigned_to": "not.be.visible"
             },
             "add": "be.visible",
             "edit": {
